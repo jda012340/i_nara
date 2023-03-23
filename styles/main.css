@@ -1,0 +1,146 @@
+header {
+  background: linear-gradient(0deg, rgba(255, 255, 255, 0.5), transparent);
+  position: fixed;
+  left: 0;
+  top: 0;
+  z-index: 999;
+  width: 100%;
+  height: 100px;
+  padding: 0 15px;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-between;
+  align-items: center;
+}
+header h1 {
+  width: 150px;
+}
+header h1 a img {
+  width: 100%;
+}
+header .right {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-between;
+  align-items: center;
+}
+header .right > .app {
+  font-family: "Jua", "sans-serif";
+  border: 2px solid #fff;
+  border-radius: 20px;
+  padding: 15px 25px;
+}
+header .right .all_nav {
+  margin-left: 15px;
+}
+header .right .all_nav span {
+  display: block;
+  width: 30px;
+  height: 5px;
+  background-color: #fff;
+  margin-bottom: 5px;
+  border-radius: 100px;
+}
+header .right .all_nav span:nth-child(3) {
+  margin-bottom: 0;
+}
+
+main .visual {
+  position: relative;
+  height: 100vh;
+  overflow: hidden;
+  text-align: center;
+}
+main .visual .contents {
+  position: relative;
+  z-index: 900;
+  padding-top: 300px;
+}
+main .visual .contents h1 {
+  font-family: "Jua", "sans-serif";
+  font-size: 3.125rem;
+  color: #fff;
+  line-height: 1.4;
+}
+main .visual .contents p {
+  color: #fff;
+  margin-bottom: 50px;
+  line-height: 1.6;
+}
+main .visual .contents .app {
+  background-color: #fff;
+  font-family: "Jua", "sans-serif";
+  font-size: 2rem;
+  padding: 15px 50px;
+  border-radius: 50px;
+  margin-top: 1000px;
+}
+main .visual video {
+  width: 130%;
+  position: absolute;
+  top: 0;
+  left: 50%;
+  z-index: 10;
+  transform: translate(-50%, 0);
+}
+main .visual .page_down {
+  position: absolute;
+  width: 100%;
+  left: 0;
+  bottom: 100px;
+  z-index: 900;
+  text-align: center;
+}
+main .visual::after {
+  content: "";
+  display: block;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0.5), transparent);
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 15;
+}
+main .event_wrap {
+  background-color: aqua;
+  width: 65%;
+  margin: 0 auto;
+}
+main .event_wrap .event_top h1 {
+  font-family: "Jua", "sans-serif";
+  font-size: 2.5rem;
+  text-align: left;
+}
+main .event_wrap .event_top p {
+  margin: 30px 0;
+}
+main .event_wrap .event_top a {
+  font-family: "Jua", "sans-serif";
+}
+main .event_wrap .event_btm {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: 320px;
+}
+main .event_wrap .event_btm .slide1 {
+  background: #ffe552 url(../images/event_image_0_20221028085348_35465.png);
+}
+main .event_wrap .event_btm .slide2 {
+  background: #b2e9de url(../images/event_image_0_20221028085704_61822.png);
+  margin: 0 20px;
+}
+main .event_wrap .event_btm .slide3 {
+  background: #ffcfd8 url(../images/event_image_3_20221105015010_49282.png);
+}
+main .event_wrap .event_btm .slide {
+  border-radius: 25px;
+  padding: 20px;
+}
+main .event_wrap .event_btm .slide h2 {
+  font-family: "Jua", "sans-serif";
+  font-size: 2rem;
+  background-repeat: no-repeat;
+  background-size: 70%;
+  background-position: right bottom;
+}/*# sourceMappingURL=main.css.map */
